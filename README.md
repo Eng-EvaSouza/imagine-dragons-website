@@ -18,3 +18,6 @@ Em desenvolvimento ✅
 
 ## ✨ Objetivo
 Projeto criado com fins educacionais para treinamento em desenvolvimento front-end.
+
+## 🌐 Acesse o site
+https://eng-evasouza.github.io/imagine-dragons-website/
