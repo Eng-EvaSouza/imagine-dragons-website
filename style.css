@@ -1,0 +1,103 @@
+/* ==========================
+   ESTILOS GERAIS
+   ========================== */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+}
+
+main {
+  padding: 3rem 0;
+}
+
+/* Títulos principais (h1 dentro do main) */
+main h1 {
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+/* ==========================
+   PÁGINA INICIAL
+   ========================== */
+
+.hero-text {
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+}
+
+/* ==========================
+   ÁLBUNS
+   ========================== */
+
+/* Garante que as capas de álbuns fiquem bonitas dentro do card */
+.card img {
+  object-fit: cover;
+}
+
+/* ==========================
+   TOUR / CONCERTOS
+   ========================== */
+
+main table {
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+/* ==========================
+   CONTACTOS
+   ========================== */
+
+.contact-form-card {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fdfdfd;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+}
+
+/* Dá um pequeno destaque ao botão de enviar */
+.contact-form-card button[type="submit"] {
+  min-width: 120px;
+}
+
+/* ==========================
+   RODAPÉ
+   ========================== */
+
+footer p {
+  margin-bottom: 0.3rem;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* ==========================
+   MEDIA QUERY (RESPONSIVO)
+   ========================== */
+
+@media (max-width: 768px) {
+  main {
+    padding: 2rem 1rem;
+  }
+
+  main h1 {
+    font-size: 1.8rem;
+  }
+
+  .contact-form-card {
+    padding: 1.5rem;
+  }
+}
